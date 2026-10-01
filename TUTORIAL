@@ -1,0 +1,87 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNAQ+sk/8IKfJBtd7s51bVL",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/centbenjamin6-dot/HEALTH-INFOMATICS/blob/main/TUTORIAL\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "SYgNTueeZwbe",
+        "outputId": "d09a145e-97d7-4cf2-9708-643a351b54e1"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "22.857142857142858\n",
+            "1600.0\n",
+            "22.857142857142858\n"
+          ]
+        }
+      ],
+      "source": [
+        "weight = 70\n",
+        "height = 1.75\n",
+        "\n",
+        "print(weight/height **2)\n",
+        "print((weight/height) **2)\n",
+        "print(weight/(height*height))"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "beats_per_minute = 18*\n",
+        "check(\"beast_per_minute\", 72, hint=\"18 beats * 4 periods of 15 seconds.\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 108
+        },
+        "collapsed": true,
+        "id": "__90oGNkfasD",
+        "outputId": "da222412-079a-4ef4-ba71-78cb0abf23ef"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "invalid syntax (2937825386.py, line 1)",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"/tmp/ipykernel_1858/2937825386.py\"\u001b[0;36m, line \u001b[0;32m1\u001b[0m\n\u001b[0;31m    beats_per_minute = 18*\u001b[0m\n\u001b[0m                          ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
